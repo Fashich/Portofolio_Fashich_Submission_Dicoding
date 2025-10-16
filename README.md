@@ -1,5 +1,4 @@
-# Buat file README.md di direktori proyek Anda
-echo "# Professional Coding Portfolio
+# Professional Coding Portfolio
 
 A clean, responsive, and semantic coding portfolio built with pure HTML, CSS, and JavaScript without any frameworks. This portfolio showcases your projects and skills with a modern design that works great on all devices.
 
