@@ -1,0 +1,261 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+  --background-color: #f8f9fa;
+  --card-bg: #ffffff;
+  --footer-bg: #1a252f;
+  --footer-text: #e0e0e0;
+  --transition: all 0.3s ease;
+}
+
+.dark-mode {
+  --primary-color: #1a252f;
+  --secondary-color: #1f3a5f;
+  --accent-color: #c0392b;
+  --text-color: #e0e0e0;
+  --background-color: #121212;
+  --card-bg: #1e1e1e;
+  --footer-bg: #0d1117;
+  --footer-text: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  transition: var(--transition);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+header button {
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+header button:hover {
+  background: #2980b9;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  min-height: calc(100vh - 150px);
+}
+
+#content {
+  flex: 3;
+  padding-right: 20px;
+}
+
+#content article {
+  margin-bottom: 2rem;
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#content h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+#content p {
+  margin-bottom: 1rem;
+}
+
+#content .projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1 0 calc(50% - 10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: var(--card-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-item h3 {
+  padding: 10px 15px;
+  color: var(--primary-color);
+}
+
+.project-item p {
+  padding: 0 15px 15px;
+  font-size: 0.9rem;
+}
+
+aside {
+  flex: 1;
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: var(--transition);
+}
+
+aside img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: var(--transition);
+}
+
+aside h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+aside ul {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+aside li {
+  margin-bottom: 0.5rem;
+}
+
+.skills-list li {
+  background: var(--background-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 0.3rem;
+}
+
+footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h3 {
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-links a {
+  color: var(--footer-text);
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: var(--transition);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-links a:hover {
+  background: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+
+  #content {
+    padding-right: 0;
+  }
+
+  .project-item {
+    flex: 1 0 calc(50% - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    flex: 1 0 100%;
+  }
+
+  header nav .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #content article {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 a {
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
