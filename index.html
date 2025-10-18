@@ -8,88 +8,441 @@
 </head>
 <body>
   <header>
-    <nav>
-      <div class="container">
-        <h1><a href="#" aria-label="Home">  Ahmad Fashich Azzuhri Ramadhani</a></h1>
-        <button id="darkModeToggle" aria-label="Toggle dark mode">Dark Mode</button>
-      </div>
-    </nav>
+    <div class="container">
+      <h1><a href="#" aria-label="Home">Ahmad Fashich Azzuhri Ramadhani</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <button id="darkModeToggle" aria-label="Toggle dark mode">Dark Mode</button>
+    </div>
   </header>
 
   <main>
-    <div id="content">
-      <article id="intro">
+    <article id="about">
+      <div class="container">
         <h2>About Me</h2>
-        <p>Hello, I am Ahmad Fashich Azzuhri Ramadhani , who is familiarly called Fashich , I am a Junior Full-Stack Developer with a development stage in designing, developing, and optimizing technological solutions gradually. I am currently taking Semester 5 of the Bachelor of Information Systems program at the State University of Surabaya , I have multidisciplinary skills that cover the entire spectrum of software development, from responsive front-end to robust back-end, as well as complex system integration with various programming languages and modern technologies. My skills are not limited to conventional software development, but also include exploring niche technologies such as game development with Roblox Studio , network programming with Cisco Packet Tracer , analyzing internet networks with Wireshark. His commitment to lifelong learning is reflected in his efforts to learn new technologies such as Rust for system programming, Kotlin for Android development, and Swift for the Apple ecosystem, while also continuing to deepen his mastery of frameworks such as Next.js , and learning Strudel as .str to deepen music created . As a problem-solver, I also believe that technology should be a bridge to solving real challenges with a transparent, adaptive, and impact-oriented work ethic, either through contributions to open-source projects, business solution development, or personal initiatives that drive innovation in the digital era.</p>
-      </article>
-
-      <article id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
-          <div class="project-item">
-            <img src="images/echogame-tetris.png" alt="Echogame-Tetris project screenshot">
-            <h3>Echogame-Tetris</h3>
-            <p>A modern take on the classic Tetris game with enhanced graphics and gameplay mechanics.</p>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Hello, I am Ahmad Fashich Azzuhri Ramadhani , who is familiarly called Fashich , I am a Junior Full-Stack Developer with a development stage in designing, developing, and optimizing technological solutions gradually. I am currently taking Semester 5 of the Bachelor of Information Systems program at the State University of Surabaya , I have multidisciplinary skills that cover the entire spectrum of software development, from responsive front-end to robust back-end, as well as complex system integration with various programming languages and modern technologies. My skills are not limited to conventional software development, but also include exploring niche technologies such as game development with Roblox Studio , network programming with Cisco Packet Tracer , analyzing internet networks with Wireshark. His commitment to lifelong learning is reflected in his efforts to learn new technologies such as Rust for system programming, Kotlin for Android development, and Swift for the Apple ecosystem, while also continuing to deepen his mastery of frameworks such as Next.js , and learning Strudel as .str to deepen music created . As a problem-solver, I also believe that technology should be a bridge to solving real challenges with a transparent, adaptive, and impact-oriented work ethic, either through contributions to open-source projects, business solution development, or personal initiatives that drive innovation in the digital era.</p>
           </div>
-          <div class="project-item">
-            <img src="images/targetshooter.png" alt="Targetshooter project screenshot">
-            <h3>Targetshooter</h3>
-            <p>An arcade-style shooting game with multiple levels and power-ups implemented with pure JavaScript.</p>
-          </div>
-          <div class="project-item">
-            <img src="images/quiztech.png" alt="Quiztech project screenshot">
-            <h3>Quiztech</h3>
-            <p>An interactive quiz application focused on technology topics with real-time scoring.</p>
-          </div>
-          <div class="project-item">
-            <img src="images/echoislamic.png" alt="Echoislamic project screenshot">
-            <h3>Echoislamic</h3>
-            <p>A resource platform for Islamic knowledge with audio content and educational materials.</p>
-          </div>
-          <div class="project-item">
-            <img src="images/echofinancry-struschain.png" alt="EchoFinancry Struschain project screenshot">
-            <h3>EchoFinancry Struschain</h3>
-            <p>A financial analysis tool with blockchain integration for secure transactions.</p>
-          </div>
-          <div class="project-item">
-            <img src="images/echowallet.png" alt="EchoWallet project screenshot">
-            <h3>EchoWallet</h3>
-            <p>A secure digital wallet application with multi-currency support and transaction history.</p>
-          </div>
-          <div class="project-item">
-            <img src="images/townperson-governmentship.png" alt="Townperson Governmentship project screenshot">
-            <h3>Townperson Governmentship</h3>
-            <p>A simulation game focused on city management and resource allocation strategies.</p>
-          </div>
-          <div class="project-item">
-            <img src="images/echochain-racing.png" alt="Echochain Racing project screenshot">
-            <h3>Echochain Racing</h3>
-            <p>A racing game with blockchain-based asset ownership and in-game economy.</p>
-          </div>
-        </div>
-      </article>
-    </div>
-
-    <aside>
-      <img src="images/profile.jpg" alt="Ahmad Fashich profile photo">
-      <h2>Biography</h2>
-      <p>Hello, I am Ahmad Fashich Azzuhri Ramadhani , who is familiarly called Fashich , I am a Junior Full-Stack Developer with a development stage in designing, developing, and optimizing technological solutions gradually. I am currently taking Semester 5 of the Bachelor of Information Systems program at the State University of Surabaya✨</p>
-      <ul>
-        <li>Age: 21</li>
+          <aside class="profile">
+            <img src="images/profiles/profile.jpg" alt="Ahmad Fashich profile photo">
+            <h3>Biography</h3>
+            <ul>
+              <li>Age: 21</li>
         <li>Location: Gresik, Indonesia</li>
         <li>Experience: 2 years</li>
         <li>Specialties: M-shaped Developer</li>
-      </ul>
-      <h3>Skills</h3>
-      <ul class="skills-list">
-        <li>Software Developer</li>
+            </ul>
+            <br>
+            <h3>Skills</h3>
+            <ul class="skills-list">
+              <li>Software Developer</li>
         <li>Game Development</li>
         <li>Data Analyst</li>
         <li>Networking</li>
         <li>Cybersecurity</li>
         <li>Blockchain Developer</li>
-      </ul>
-    </aside>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <section id="certificates">
+      <div class="container">
+        <h2>My Certificates</h2>
+        <div class="certificates-grid">
+          <div class="certificate-item">
+  <img src="images/certificate/cert-1.jpg" alt="Certificate 1">
+  <h3>Introduction to Successful Career Planning for IT/Computer</h3>
+  <p>SmartPath</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-2.jpg" alt="Certificate 2">
+  <h3>Diklat Nasional Mendesain Pembelajaran Efektif yang Berpusat Pada Peserta Didik</h3>
+  <p>Diklat Online</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-3.jpg" alt="Certificate 3">
+  <h3>Student Developer Initiative: Code Generations and Optimization</h3>
+  <p>Hacktiv8 Indonesia</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-4.jpg" alt="Certificate 4">
+  <h3>Sertifikat IBM SkillsBuild</h3>
+  <p>Student Ambassador Program with IBM SkillsBuild</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-5.jpg" alt="Certificate 5">
+  <h3>R Fundamental for Data Science</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-6.jpg" alt="Certificate 6">
+  <h3>Participant Certificate - General Knowledge Quiz Competition SejutaCita Future Leaders: Korea 2025</h3>
+  <p>SejutaCita Indonesia</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-7.jpg" alt="Certificate 7">
+  <h3>Network Fundamental Course</h3>
+  <p>Aguna Course</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-8.jpg" alt="Certificate 8">
+  <h3>Introduction to Data Science with R</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-9.jpg" alt="Certificate 9">
+  <h3>Guest Lecture - Ministry of Education, Culture, Research, and Technology Surabaya State University Faculty of Engineering</h3>
+  <p>Universitas Negeri Surabaya (UNESA)</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-10.jpg" alt="Certificate 10">
+  <h3>Diklat Nasional Penerapan Pembelajaran Berdiferensiasi dalam Kurikulum Merdeka</h3>
+  <p>Diklat Online</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-11.jpg" alt="Certificate 11">
+  <h3>AWS Cloud Practitioner Essentials</h3>
+  <p>AWS Training and Certifications</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-12.jpg" alt="Certificate 12">
+  <h3>E-Certificate Event Series 4 - CERTIFICATE FOR PARTICIPATION</h3>
+  <p>Google Developer Group on Campus Universitas Negeri Surabaya</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-13.jpg" alt="Certificate 13">
+  <h3>Guide to Learn SQL with AI</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-14.jpg" alt="Certificate 14">
+  <h3>Guide to Learn R with AI</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-15.jpg" alt="Certificate 15">
+  <h3>Data Science in Retail: Market Basket Analysis</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-16.jpg" alt="Certificate 16">
+  <h3>Data Preparation in Data Science using R</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-17.jpg" alt="Certificate 17">
+  <h3>Data Analisis (Micro Skill)</h3>
+  <p>Digital Talent Scholarship</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-18.jpg" alt="Certificate 18">
+  <h3>CERTIFICATE PELENGKAP DATA ANALYST BATCH 3: Data Analysis with Excel and R Studio.</h3>
+  <p>PT Ousean Global Digital</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-19.png" alt="Certificate 19">
+  <h3>Understanding and Developing on Zcash</h3>
+  <p>Blockchain.com</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-20.png" alt="Certificate 20">
+  <h3>Web Development Bootcamp</h3>
+  <p>Blockchain.com</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-21.jpg" alt="Certificate 21">
+  <h3>Certificate Figma Camp Indonesia Batch 4: UI/UX Design with Figma</h3>
+  <p>Figma</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-22.png" alt="Certificate 22">
+  <h3>Building on Hedera</h3>
+  <p>Blockchain.com</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-23.jpg" alt="Certificate 23">
+  <h3>R for Data Professional - Part 1</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-24.jpg" alt="Certificate 24">
+  <h3>R for Data Professional - Part 2</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-25.jpg" alt="Certificate 25">
+  <h3>R for Data Professional - Part 3</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-26.jpg" alt="Certificate 26">
+  <h3>Quiz Basic Excel</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-27.jpg" alt="Certificate 27">
+  <h3>Project: Eksplorasi Data Ritel menggunakan R</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-28.png" alt="Certificate 28">
+  <h3>Project Management Profesional (PMP)</h3>
+  <p>Master of Project Academy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-29.png" alt="Certificate 29">
+  <h3>
+Microsoft Excel® Training</h3>
+  <p>Master of Project Academy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-30.jpg" alt="Certificate 30">
+  <h3>Cybersecurity Career Starter Certification (CCSC)</h3>
+  <p>Hack & Fix</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-31.jpg" alt="Certificate 31">
+  <h3>BLOCKCHAIN FUNDAMENTALS</h3>
+  <p>101 Blockchains</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-32.jpg" alt="Certificate 32">
+  <h3>n8n Course: No Code AI Agent Builder</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-33.jpg" alt="Certificate 33">
+  <h3>The AI Sprint 2025</h3>
+  <p>HelloPM</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-34.jpg" alt="Certificate 34">
+  <h3>Statistics using R for Data Science</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-35.jpg" alt="Certificate 35">
+  <h3>Spark Machine Learning Project (House Sale Price Prediction)
+</h3>
+  <p>Udemy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-36.jpg" alt="Certificate 36">
+  <h3>Plesk Obsidian Professional Certification (CAPC)</h3>
+  <p>Plesk</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-37.jpg" alt="Certificate 37">
+  <h3>Oracle Certified Foundations Associate Certificate of Recognition
+</h3>
+  <p>Oracle</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-38.jpg" alt="Certificate 38">
+  <h3>On Boarding Peserta Magenta BUMN</h3>
+  <p>Kementerian BUMN</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-39.png" alt="Certificate 39">
+  <h3>Microsoft Project® Training</h3>
+  <p>Master of Project Academy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-40.jpg" alt="Certificate 40">
+  <h3>Introduction to ITIL® V4</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-41.png" alt="Certificate 41">
+  <h3>IT Service Management (ITSM)</h3>
+  <p>Master of Project Academy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-42.png" alt="Certificate 42">
+  <h3>Graphic Design - FIGMA</h3>
+  <p>Special Skill Indonesia</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-43.jpg" alt="Certificate 43">
+  <h3>Get Started with Databricks for Machine Learning</h3>
+  <p>Databricks</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-44.jpg" alt="Certificate 44">
+  <h3>Fundamentals of Data Structures in C</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-45.jpg" alt="Certificate 45">
+  <h3>Fundamental Data Visualization using R</h3>
+  <p>DQLab</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-46.jpg" alt="Certificate 46">
+  <h3>Full Stack Developer Course</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-47.jpg" alt="Certificate 47">
+  <h3>Exploring Data Transformation with Google Cloud</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-48.jpg" alt="Certificate 48">
+  <h3>Ethical hacking 101 : Beginners guide to Ethical hacking</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-49.jpg" alt="Certificate 49">
+  <h3>Cybersecurity in Healthcare</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-50.jpg" alt="Certificate 50">
+  <h3>Cybersecurity in Finance</h3>
+  <p>Google Cloud</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-51.jpg" alt="Certificate 51">
+  <h3>Customer Relationship Management Course</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-52.jpg" alt="Certificate 52">
+  <h3>ChatGPT for Data Analytics</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-53.png" alt="Certificate 53">
+  <h3>Certified Information Systems Security Professional (CISSP)</h3>
+  <p>Master of Project Academy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-54.png" alt="Certificate 54">
+  <h3>Certified Information Systems Auditor (CISA)</h3>
+  <p>Master of Project Academy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-55.jpg" alt="Certificate 55">
+  <h3>Certified Blockchain Solutions Architect (CBSA)</h3>
+  <p>Udemy</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-56.jpg" alt="Certificate 56">
+  <h3>Business Intelligence Fundamentals</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-57.jpg" alt="Certificate 57">
+  <h3>Blockchain Developer Training</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-58.jpg" alt="Certificate 58">
+  <h3>Become a Machine Learning Expert : Introduction to MATLAB</h3>
+  <p>Simplilearn</p>
+</div>
+<div class="certificate-item">
+  <img src="images/certificate/cert-59.jpg" alt="Certificate 59">
+  <h3>Free Class Data Analyst</h3>
+  <p>Special Skill Indonesia</p>
+</div>
+</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-item">
+            <img src="images/projects/echogame-tetris.png" alt="Echogame-Tetris project screenshot">
+            <h3>Echogame-Tetris</h3>
+            <p>A modern take on the classic Tetris game with enhanced graphics and gameplay mechanics.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/targetshooter.png" alt="Targetshooter project screenshot">
+            <h3>Targetshooter</h3>
+            <p>An arcade-style shooting game with multiple levels and power-ups implemented with pure JavaScript.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/quiztech.png" alt="Quiztech project screenshot">
+            <h3>QuizTech</h3>
+            <p>An interactive quiz application focused on technology topics with real-time scoring.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/echoislamic.png" alt="Echoislamic project screenshot">
+            <h3>Echoislamic</h3>
+            <p>A resource platform for Islamic knowledge with audio content and educational materials.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/echofinancry-struschain.png" alt="EchoFinancry Struschain project screenshot">
+            <h3>EchoFinancry Struschain</h3>
+            <p>A financial analysis tool with blockchain integration for secure transactions.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/echowallet.png" alt="EchoWallet project screenshot">
+            <h3>EchoWallet</h3>
+            <p>A secure digital wallet application with multi-currency support and transaction history.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/townperson-governmentship.png" alt="Townperson Governmentship project screenshot">
+            <h3>Townperson Governmentship</h3>
+            <p>A simulation game focused on city management and resource allocation strategies.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/echochain-racing.png" alt="Echochain Racing project screenshot">
+            <h3>Echochain Racing</h3>
+            <p>A racing game with blockchain-based asset ownership and in-game economy.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/versaai.jpg" alt="VersaAI project screenshot">
+            <h3>VersaAI</h3>
+            <p>In the fast-paced world of product management, efficiency and precision are paramount. VersaAI emerges as a groundbreaking solution, designed to empower PMs, associate PMs, founders, and business analysts with an AI-driven platform that streamlines two critical workflows: PRD generation and feature prioritization. By leveraging advanced AI capabilities, VersaAI reduces cognitive overhead, accelerates decision-making, and ensures alignment across stakeholders, enabling teams to focus on strategic innovation rather than administrative burdens.</p>
+          </div>
+          <div class="project-item">
+            <img src="images/projects/fashbot.png" alt="FashBot project screenshot">
+            <h3>FashBot</h3>
+            <p>FashBot is an AI-based chatbot designed as a versatile developer assistant with advanced multimodal capabilities. The project leverages the power of Google DeepMind's Gemini model with a Retrieval Augmented Generation (RAG) implementation using FAISS to improve response accuracy based on the context of relevant documents.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/galleries/photo-1.png" alt="Gallery image 1">
+          </div>
+          <div class="gallery-item">
+            <img src="images/galleries/photo-2.png" alt="Gallery image 2">
+          </div>
+          <div class="gallery-item">
+            <img src="images/galleries/photo-3.png" alt="Gallery image 3">
+          </div>
+          <div class="gallery-item">
+            <img src="images/galleries/photo-4.png" alt="Gallery image 4">
+          </div>
+          <div class="gallery-item">
+            <img src="images/galleries/photo-5.png" alt="Gallery image 5">
+          </div>
+          <div class="gallery-item">
+            <img src="images/galleries/photo-6.png" alt="Gallery image 6">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
