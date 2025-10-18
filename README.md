@@ -4,7 +4,7 @@ A clean, responsive, and semantic coding portfolio built with pure HTML, CSS, an
 
 ## Features
 
-- ✅ **Semantic HTML** - Proper use of \`<header>\`, \`<main>\`, \`<footer>\`, \`<article>\`, and \`<aside>\` elements
+- ✅ **Semantic HTML** - Proper use of &lt;header&gt;, &lt;main&gt;, &lt;footer&gt;, &lt;article&gt;, and &lt;aside&gt; elements
 - 🌐 **Fully Responsive** - Adapts to desktop, tablet, and mobile devices using Flexbox
 - 🌙 **Dark Mode** - Toggle between light and dark themes with localStorage persistence
 - 💻 **Interactive Elements** - Hover effects on project cards and smooth navigation
@@ -56,6 +56,7 @@ coding-portfolio/
 ## Why This Portfolio Stands Out
 
 This portfolio is designed to meet and exceed the requirements for a 5-star rating:
+
 - Uses proper semantic HTML structure as required
 - Implements responsive layout with Flexbox (not float)
 - Contains interactive JavaScript features (dark mode toggle)
